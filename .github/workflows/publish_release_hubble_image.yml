@@ -15,7 +15,7 @@ jobs:
   build_latest:
     runs-on: ubuntu-latest
     env:
-      REPOSITORY_URL: apache/hugegraph-toolchain
+      REPOSITORY_URL: FrostyHec/incubator-hugegraph-toolchain
       BRANCH: ${{inputs.branch}}
       MVN_ARGS: ${{inputs.mvn_args}}
 
