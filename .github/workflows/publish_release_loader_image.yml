@@ -18,6 +18,7 @@ jobs:
       REPOSITORY_URL: apache/hugegraph-toolchain
       BRANCH: ${{inputs.branch}}
       MVN_ARGS: ${{inputs.mvn_args}}
+      NODE_OPTIONS: --dns-result-order=ipv4first
 
     steps:
     - name: Set image_url
